@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">/
+<!--<item android:state_pressed="true">//定义当button 处于pressed 状态时的形态。
+    <shape>
+        <solid
+            android:color="@color/blue_2" />
+        <corners
+            android:radius="5dp" />
+    </shape>
+</item>
+
+<item android:state_focused="false">//定义当button获得 focus时的形态
+    <shape>
+        <solid
+            android:color="@color/blue_1" />
+        <corners
+            android:radius="5dp" />
+    </shape>
+</item>-->
+    <item android:state_pressed="true" android:drawable="@drawable/blue_2"/>
+    <item android:state_pressed="false" android:drawable="@drawable/blue_1"/>
+</selector>
+
+
+    <!--
+        solid：填充
+    android:color指定填充的颜色
+
+    gradient：渐变
+    android:startColor和android:endColor分别为起始和结束颜色，
+
+    android:angle是渐变角度，必须为45的整数倍。
+
+    stroke：描边
+    android:width="2dp" 描边的宽度，android:color 描边的颜色。
+    我们还可以把描边弄成虚线的形式，设置方式为：
+    android:dashWidth="5dp"
+    android:dashGap="3dp"
+    其中android:dashWidth表示'-'这样一个横线的宽度，android:dashGap表示之间隔开的距离
+
+    corners：圆角
+    android:radius为角的弧度，值越大角越圆。
+    我们还可以把四个角设定成不同的角度，
+
+    padding：间隔
+    可以设置上下左右四个方向的间隔
+        -->

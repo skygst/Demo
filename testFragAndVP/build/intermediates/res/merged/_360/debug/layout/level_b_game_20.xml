@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_sentence_bg"
+        style="@style/wrapContent" >
+
+        <TextView
+            android:id="@+id/tv_sentence"
+            style="@style/wrapContent"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_choose_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_choose_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_answer_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_answer_2"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

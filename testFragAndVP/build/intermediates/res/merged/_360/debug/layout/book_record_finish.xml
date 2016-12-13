@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch" >
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        style="@style/wrapContent"
+        android:src="@drawable/record_bg"
+        />
+
+    <TextView
+        android:id="@+id/tv_money"
+        style="@style/wrapContent"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_money"
+        style="@style/wrapContent"
+        android:src="@drawable/icon_money"
+        />
+
+    <ImageView
+        android:id="@+id/iv_good"
+        style="@style/wrapContent"
+        android:src="@drawable/icon_good"
+        />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_comments"
+        style="@style/wrapContent"
+        android:src="@drawable/recorde_comments"
+        />
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_share"
+        style="@style/wrapContent"
+        android:src="@drawable/recorder_share"
+        />
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_list"
+        style="@style/wrapContent"
+        android:src="@drawable/recorder_list"
+        />
+
+</RelativeLayout>

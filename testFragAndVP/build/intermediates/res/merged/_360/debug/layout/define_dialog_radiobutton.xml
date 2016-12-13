@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch" >
+
+    <RelativeLayout
+        style="@style/wrapContent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/corner_box_white" >
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            style="@style/matchWrap"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/corner_top_left_top_right_15"
+            android:text="放假啦家家"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            style="@style/matchWrap"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_below="@id/tv_dialog_title"
+            android:minHeight="40dp"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_rd_1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/tv_dialog_title"
+            android:layout_marginLeft="1dp" >
+
+            <TextView
+                android:id="@+id/tv_1_content"
+                style="@style/matchWrap"
+                android:text="· 12次（1个月有效）10元"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/iv_sel_1"
+                style="@style/wrapContent"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/comments_sel"
+                />
+
+            </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/ll_line"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/rl_rd_1"
+            android:background="@drawable/dotted_line_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_rd_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/ll_line"
+            android:layout_marginLeft="1dp" >
+            <TextView
+                android:id="@+id/tv_3_content"
+                style="@style/matchWrap"
+                android:text="· 40次 （3个月有效）30元"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/iv_sel_2"
+                style="@style/wrapContent"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/comments_del"
+                />
+
+            </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/rl_rd_2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            style="@style/matchWrap"
+            android:layout_height="45dp"
+            android:layout_below="@id/view_line"
+            android:background="@drawable/corner_bottom_left_top_right_15"
+            >
+
+            <View
+                android:id="@+id/view_line_3"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <com.ebodoo.raz.custom.ClickImageView
+                android:id="@+id/iv_left"
+                style="@style/matchWrap"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@id/view_line_3"
+                android:src="@drawable/comments_buy"
+                />
+            <com.ebodoo.raz.custom.ClickImageView
+                android:id="@+id/iv_right"
+                style="@style/matchWrap"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/view_line_3"
+                android:src="@drawable/comments_cancel"
+                />
+
+        </RelativeLayout>
+
+        <!--<View
+            android:id="@+id/view_shuxian"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/view_line"
+            android:layout_centerHorizontal="true"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/view_line"
+            android:layout_marginLeft="1dp"
+            android:layout_toLeftOf="@id/view_shuxian"
+            android:background="@drawable/unicorn_left_bottom" >
+
+            <TextView
+                android:id="@+id/tv_left"
+                style="@style/matchWrap"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_right"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/view_line"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/view_shuxian"
+            android:background="@drawable/unicorn_right_bottom" >
+
+            <TextView
+                android:id="@+id/tv_right"
+                style="@style/matchWrap"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+        </RelativeLayout>-->
+    </RelativeLayout>
+
+</RelativeLayout>

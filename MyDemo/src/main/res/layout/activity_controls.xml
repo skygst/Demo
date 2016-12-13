@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app">
+
+    <include
+        android:id="@+id/title_styles"
+        layout="@layout/title_styles" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_styles"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.0">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+
+                <Button
+                    android:id="@+id/btn_imageview"
+                    style="@style/main_status"
+                    android:text="ImageView的使用" />
+
+                <Button
+                    android:id="@+id/btn_horizon_list_view"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_imageview"
+                    android:text="水平ListView的使用" />
+
+                <Button
+                    android:id="@+id/btn_list_frame"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_horizon_list_view"
+                    android:text="ListView图片动态添加边框" />
+                <Button
+                    android:id="@+id/btn_zhexian_tu"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_list_frame"
+                    android:text="折线图" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+
+                <Button
+                    android:id="@+id/btn_listview_1"
+                    style="@style/main_status"
+                    android:text="ScrollView嵌套ListView的使用" />
+
+                <Button
+                    android:id="@+id/btn_button"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_listview_1"
+                    android:text="Button的使用" />
+
+                <Button
+                    android:id="@+id/btn_bing_tu"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_button"
+                    android:text="饼图" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

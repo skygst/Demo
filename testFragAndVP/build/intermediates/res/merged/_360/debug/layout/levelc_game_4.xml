@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch" >
+
+    <ImageView
+        android:id="@+id/iv_card"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_pic_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_pic_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_answer"
+        style="@style/wrapContent"
+        android:src="@drawable/complete_ok"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        style="@style/wrapContent"
+        android:text="flaejlaejflawlijejewfleaefai"
+        android:layout_below="@id/iv_card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

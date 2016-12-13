@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch"
+    android:background="@drawable/home_bg">
+
+    <HorizontalScrollView
+        style="@style/matchMatch"
+        android:overScrollMode="never">
+
+        <RelativeLayout style="@style/wrapContent">
+
+            <LinearLayout
+                android:id="@+id/ll_layout"
+                style="@style/wrapContent"
+                android:dividerPadding="-5dp"
+                android:dividerHeight="-5dp"
+                android:divider="@drawable/line"
+                android:showDividers="middle"
+                ></LinearLayout>
+
+        </RelativeLayout>
+
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/iv_windmill"
+        style="@style/wrapContent"
+        android:src="@drawable/windmill"
+        />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg"
+        style="@style/wrapContent"
+        android:src="@drawable/home_bottom_bg"
+        />
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_barn"
+        style="@style/wrapContent"
+        android:src="@drawable/barn"
+        />
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_shop"
+        style="@style/wrapContent"
+        android:src="@drawable/shop"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_gold"
+        style="@style/wrapContent"
+        android:background="@drawable/star_num_bg"
+        >
+
+    <TextView
+        android:id="@+id/tv_gold"
+        style="@style/wrapContent"
+        android:text="0 / 300"
+        android:src="@drawable/star_num_bg"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_head_portrait"
+        style="@style/wrapContent"
+        android:background="@drawable/head_bg"
+        >
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_head_portrait"
+        style="@style/wrapContent"
+        android:src="@drawable/head_detal"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/wrapContent"
+        android:text="小来来"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/iv_head_portrait"
+        android:layout_alignTop="@id/iv_head_portrait"
+        android:layout_alignRight="@id/rl_head_portrait"
+        android:gravity="left"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="12sp"
+        />
+
+    <com.ebodoo.raz.custom.SpringProgressView
+        android:id="@+id/sp_progress"
+        style="@style/wrapContent"
+        />
+
+    <TextView
+        android:id="@+id/tv_level"
+        style="@style/wrapContent"
+        android:layout_width="match_parent"
+        android:text="LV.1"
+        android:layout_below="@id/tv_name"
+        android:layout_alignRight="@id/sp_progress"
+        android:layout_alignLeft="@id/sp_progress"
+        android:textColor="#248801"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="8sp"
+        />
+
+</RelativeLayout>

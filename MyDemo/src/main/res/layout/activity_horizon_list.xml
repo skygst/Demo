@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app">
+
+    <include
+        android:id="@+id/title_styles"
+        layout="@layout/title_styles"
+        />
+
+    <com.gst.mydemo.custom.widget.MyScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_styles"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.gst.mydemo.custom.widget.HorizontalListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp" >
+            </com.gst.mydemo.custom.widget.HorizontalListView>
+
+        </RelativeLayout>
+
+    </com.gst.mydemo.custom.widget.MyScrollView>
+
+</RelativeLayout>
+

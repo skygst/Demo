@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg" >
+
+    <ImageView
+        android:id="@+id/iv_dash_dot1"
+        style="@style/wrapWrap"
+        android:src="@drawable/dash_dot1" />
+
+    <ImageView
+        android:id="@+id/iv_dash_dot2"
+        style="@style/wrapWrap"
+        android:src="@drawable/dash_dot2" />
+
+    <ImageView
+        android:id="@+id/pic_1"
+        style="@style/wrapWrap" />
+
+    <ImageView
+        android:id="@+id/pic_2"
+        style="@style/wrapWrap" />
+
+    <ImageView
+        android:id="@+id/pic_3"
+        style="@style/wrapWrap"/>
+
+    <ImageButton
+        android:id="@+id/ibtn_card_1"
+        style="@style/wrapWrap"
+        android:background="@drawable/card_1" />
+
+    <ImageButton
+        android:id="@+id/ibtn_card_2"
+        style="@style/wrapWrap"
+        android:background="@drawable/card_2" />
+
+    <ImageButton
+        android:id="@+id/ibtn_card_3"
+        style="@style/wrapWrap"
+        android:background="@drawable/card_3" />
+
+    <ImageView
+        android:id="@+id/ibtn_back"
+        style="@style/wrapWrap"
+        android:src="@drawable/bt_front" />
+
+</RelativeLayout>

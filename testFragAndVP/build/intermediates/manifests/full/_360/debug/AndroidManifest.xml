@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gst.move"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <!--
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name="com.gst.move.test.InitApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        <!-- 使用 "宝贝英语说" 里的友盟APPKey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54115441fd98c5b89c0075fd" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="f421e8a6fc0c4300cdf00b0573b39d2f" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="360" />
+
+        <!-- android:name="com.gst.move.LevelAsia5_0Activity" -->
+        <!-- android:name="com.gst.move.level_a.LevelAMainActivity" -->
+
+        <activity
+            android:name="com.gst.move.home_work.ColoringBGameActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            <activity
+            android:name=".test_demo.SpeakLoudlyActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        -->
+        <activity
+            android:name="com.gst.move.test_demo.VideoPlayActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.test_demo.BuySpeakLoudlyDialogActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/halftransparent" />
+        <activity
+            android:name="com.gst.move.level_c_game.MedalActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent2" />
+        <!--
+            <activity
+            android:name=".level_c_game.MedalDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent2"
+            />
+        -->
+        <!--
+            <activity
+            android:name=".home_work.PhoneLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        -->
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame7Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame8Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame9Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame10Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <!--
+            <activity
+            android:name=".level_c_game.EbookLevelCGame1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        -->
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame3Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame4Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_c_game.EbookLevelCGame5Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+
+        <!-- level A start -->
+        <activity
+            android:name="com.gst.move.level_a.LevelABirdGoesHomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAHamsterHome1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAHamsterHome2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAHeRuns2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAMyDog2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAMyHair1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAMyRoom2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAPondAnimals2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelATheseShoes1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelATheseShoes2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAWhatILike1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAMyColors1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelABaaSheep1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAToSchool1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAHumptyDumpty2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelALittleHen1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelALittleHen2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelAInAndOut2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.LevelABigCat1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.level_a.CommonGoodActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent2" />
+
+        <!-- level A end -->
+        <activity
+            android:name="com.gst.move.test.WearEarActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <!--
+        <activity
+            android:name="com.gst.move.test.WearVideoAlbumsActivityearVideoAlbumsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.test.WearItemDetailActivity.gst.move.WearItemDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.test.WearVideoAlbumsHistoryRecordActivityVideoAlbumsHistoryRecordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent" />
+        -->
+        <activity
+            android:name="com.gst.move.game.LevelAaGame1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame3Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame4Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame5Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame6Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame7Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.game.LevelAaGame8Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <!--
+             <activity
+            android:name="com.ebodoo.raz.video.WearVideoPlayActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        -->
+        <!--
+             <activity
+            android:name="com.ebodoo.raz.video.WearVideoPlayWebViewActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        -->
+        <activity
+            android:name="com.gst.move.basic.Level1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level3Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level4Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level5Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level6Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level7Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level8Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level9Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level10Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level11Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level12Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level13Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level14Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.Level15Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.SayItActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.LevelGameActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.MvPlayActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.SuccessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gst.move.basic.SuccessSayitActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

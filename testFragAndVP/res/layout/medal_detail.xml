@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        style="@style/wrapContent"
+        android:src="@drawable/medal_detail_bg"
+        />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        style="@style/wrapContent"
+        android:src="@drawable/medal_detail_close"/>
+
+    <ImageView
+        android:id="@+id/iv_line"
+        style="@style/wrapContent"
+        android:src="@drawable/medal_detail_line" />
+
+    <ImageView
+        android:id="@+id/iv_sparkling"
+        style="@style/wrapContent"
+        android:src="@drawable/medal_detail_sparkling" />
+
+    <ImageView
+        android:id="@+id/iv_medal"
+        style="@style/wrapContent"
+        android:src="@drawable/medal_big_1_1"
+        />
+
+    <ImageView
+        android:id="@+id/iv_medal_significance"
+        style="@style/wrapContent"
+        android:src="@drawable/medal_detail_significance" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/iv_line"
+        />
+
+    <com.gst.move.custom.MyTextView
+        android:id="@+id/tv_des"
+        style="@style/wrapContent"
+        android:layout_above="@id/view_line"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="#369b97"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:layout_alignLeft="@id/iv_line"
+        android:layout_alignRight="@id/iv_line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="在“启蒙磨耳朵”中听完30首儿歌可得此勋章.........."
+        />
+
+    <TextView
+        android:id="@+id/tv_medal_significance"
+        style="@style/wrapContent"
+        android:layout_below="@id/iv_medal_significance"
+        android:layout_toRightOf="@id/iv_sparkling"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@id/iv_line"
+        android:layout_alignLeft="@id/iv_medal_significance"
+        android:layout_marginRight="10dp"
+        android:textColor="#48b0ac"
+        android:lineSpacingExtra="3dp"
+        android:text="300小时可以检验孩子听力效果，大多孩子可以整段地复述感兴趣的内容"
+        />
+
+</RelativeLayout>

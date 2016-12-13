@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/game_bg"
+    >
+
+    <ScrollView style="@style/matchMatch" >
+
+        <LinearLayout
+            style="@style/matchMatch"
+            android:orientation="horizontal"
+            android:weightSum="2.0" >
+
+            <LinearLayout
+                android:id="@+id/ll_left"
+                style="@style/matchMatch"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+                
+                <Button 
+                    android:id="@+id/btn_1"
+                    style="@style/centerHorizontalParams"
+                    android:text="birds_goes_home_2"
+                    />
+                <Button 
+                    android:id="@+id/btn_3"
+                    style="@style/centerHorizontalParams"
+                    android:text="hamster_home_2"
+                    />
+                <Button 
+                    android:id="@+id/btn_5"
+                    style="@style/centerHorizontalParams"
+                    android:text="my_dog_2"
+                    />
+                 <Button 
+                    android:id="@+id/btn_7"
+                    style="@style/centerHorizontalParams"
+                    android:text="My_room_2"
+                    />
+               <Button 
+                    android:id="@+id/btn_9"
+                    style="@style/centerHorizontalParams"
+                    android:text="These shoes 1"
+                    />
+               <Button 
+                    android:id="@+id/btn_11"
+                    style="@style/centerHorizontalParams"
+                    android:text="What i like 1"
+                    />
+               <Button 
+                    android:id="@+id/btn_13"
+                    style="@style/centerHorizontalParams"
+                    android:text="Baa baa black sheep"
+                    />
+               <Button 
+                    android:id="@+id/btn_15"
+                    style="@style/centerHorizontalParams"
+                    android:text="Humpty Dumpty"
+                    />
+               <Button 
+                    android:id="@+id/btn_17"
+                    style="@style/centerHorizontalParams"
+                    android:text="I had a little hen 2"
+                    />
+               <Button 
+                    android:id="@+id/btn_19"
+                    style="@style/centerHorizontalParams"
+                    android:text="the big cat 1"
+                    />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_right"
+                style="@style/matchMatch"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+                
+                <Button 
+                    android:id="@+id/btn_2"
+                    style="@style/centerHorizontalParams"
+                    android:text="hamster_home_1"
+                    />
+                <Button 
+                    android:id="@+id/btn_4"
+                    style="@style/centerHorizontalParams"
+                    android:text="he_runs_2"
+                    />
+                <Button 
+                    android:id="@+id/btn_6"
+                    style="@style/centerHorizontalParams"
+                    android:text="my_hair_1"
+                    />
+                <Button 
+                    android:id="@+id/btn_8"
+                    style="@style/centerHorizontalParams"
+                    android:text="Pond animals_2"
+                    />
+                <Button 
+                    android:id="@+id/btn_10"
+                    style="@style/centerHorizontalParams"
+                    android:text="These shoes 2"
+                    />
+                <Button 
+                    android:id="@+id/btn_12"
+                    style="@style/centerHorizontalParams"
+                    android:text="I see my colors 2"
+                    />
+                
+                <Button 
+                    android:id="@+id/btn_14"
+                    style="@style/centerHorizontalParams"
+                    android:text="carlos goes to school"
+                    />
+                <Button 
+                    android:id="@+id/btn_16"
+                    style="@style/centerHorizontalParams"
+                    android:text="I had a little hen 1"
+                    />
+                <Button 
+                    android:id="@+id/btn_18"
+                    style="@style/centerHorizontalParams"
+                    android:text="In and out 2"
+                    />
+                
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

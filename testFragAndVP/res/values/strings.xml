@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试Fragment和ViewPager</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv_main_no1">第一</string>
+    <string name="tv_main_no2">第二</string>
+    <string name="tv_main_no3">第三</string>
+    <string name="tv_main_no4">第四</string>
+    <string name="tv_main_no5">第五</string>
+    <string name="tv_main_no6">第六</string>
+    <string name="tv_main_no7">第七</string>
+    <string name="tv_1thContent">个月\n激发阅读兴趣\n学会阅读方法</string>
+    <string name="tv_3thContent">个月\n养成阅读习惯\n提升自主阅读能力</string>
+
+    <string name="comments_info_content">您将得到专业幼儿英语老师的一对一点评，针对每个孩子的语调、音准、和流利度进行专业的文字评价，并针对各方面，尤其是发音，给予示范性的语音指导，以及总体的阅读星级标准打分。通过一个月的坚持，帮助您的孩子培养英语阅读的兴趣，从基础开始练就一口纯正的美音。三个月坚持下来，养成良好的阅读习惯，让孩子受益终生！
+</string>
+
+    <string name="network_anomaly">网络异常，请检查网络是否连接</string>
+
+</resources>

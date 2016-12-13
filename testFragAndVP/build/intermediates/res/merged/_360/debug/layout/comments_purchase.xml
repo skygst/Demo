@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchParent"
+    android:background="@drawable/comments_purchase_bg">
+
+    <ImageView
+        android:id="@+id/iv_ydzd"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_purchase_reading_instruction"
+        />
+
+    <TextView
+        style="@style/commentsPurchaseDesParams"
+        android:text="阅读指导"
+        android:layout_below="@id/iv_ydzd"
+        android:layout_alignRight="@id/iv_ydzd"
+        />
+
+    <ImageView
+        android:id="@+id/iv_sddp"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_purchase_depth_comment"/>
+
+    <TextView
+        style="@style/commentsPurchaseDesParams"
+        android:text="深度点评"
+        android:layout_below="@id/iv_sddp"
+        android:layout_alignRight="@id/iv_sddp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_yydp"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_purchase_voice" />
+
+    <TextView
+        style="@style/commentsPurchaseDesParams"
+        android:text="语音点评"
+        android:layout_below="@id/iv_yydp"
+        android:layout_alignRight="@id/iv_yydp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_xjpj"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_purchase_star"/>
+
+    <TextView
+        style="@style/commentsPurchaseDesParams"
+        android:text="星级评价"
+        android:layout_below="@id/iv_xjpj"
+        android:layout_alignRight="@id/iv_xjpj"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_1th"
+        style="@style/wrapContent">
+
+        <TextView
+            android:id="@+id/tv_1_content"
+            style="@style/wrapContent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:id="@+id/iv_sel_1"
+            style="@style/wrapContent"
+            android:src="@drawable/comments_purchase_sel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_1th"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_purchase_1th"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_3th"
+        style="@style/wrapContent">
+
+        <TextView
+            android:id="@+id/tv_3_content"
+            style="@style/wrapContent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/iv_sel_3"
+            style="@style/wrapContent"
+            android:src="@drawable/comments_purchase_sel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_3th"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_purchase_3th"/>
+
+    <View
+        android:id="@+id/view_center"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rl_3th"
+        />
+
+    <TextView
+        android:id="@+id/tv_left_money"
+        style="@style/matchWrap"
+        android:text="30元/12次"
+        android:layout_toLeftOf="@id/view_center"
+        android:layout_below="@id/rl_1th"
+        android:gravity="center_horizontal"
+        android:textColor="#333333"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        style="@style/matchWrap"
+        android:text="(有效期30天)"
+        android:layout_toLeftOf="@id/view_center"
+        android:layout_below="@id/tv_left_money"
+        android:gravity="center_horizontal"
+        android:textColor="#ff2222"
+        android:textSize="11sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_right_money"
+        style="@style/matchWrap"
+        android:text="90元/40次"
+        android:layout_toRightOf="@id/view_center"
+        android:layout_below="@id/rl_1th"
+        android:gravity="center_horizontal"
+        android:textColor="#333333"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        style="@style/matchWrap"
+        android:text="(有效期90天)"
+        android:layout_toRightOf="@id/view_center"
+        android:layout_below="@id/tv_right_money"
+        android:gravity="center_horizontal"
+        android:textColor="#ff2222"
+        android:textSize="11sp"
+        />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="确认并购买"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/sel_red"
+        android:gravity="center_vertical"
+        />
+
+</RelativeLayout>

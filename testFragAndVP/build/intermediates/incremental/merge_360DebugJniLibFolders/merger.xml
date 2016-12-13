@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\as_workspace\MyApplication\testFragAndVP\src\main\jniLibs"/></dataSet><dataSet config="_360"><source path="D:\as_workspace\MyApplication\testFragAndVP\src\_360\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\as_workspace\MyApplication\testFragAndVP\build-types\debug\jniLibs"/></dataSet><dataSet config="_360Debug"><source path="D:\as_workspace\MyApplication\testFragAndVP\src\_360Debug\jniLibs"/></dataSet></merger>

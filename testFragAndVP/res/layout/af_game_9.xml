@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_word_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_des"
+            style="@style/wrapContent"
+            android:gravity="center"
+            android:text="My Dog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/iv_card_1"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_card_2"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_card_3"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_card_4"
+            style="@style/wrapContent" />
+        
+        <ImageView
+            android:id="@+id/iv_title_1"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_title_2"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_title_3"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_title_4"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_bg_1"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_bg_2"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_bg_3"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_bg_4"
+            style="@style/wrapContent" />
+        <ImageView
+            android:id="@+id/iv_bottom_1"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_2"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_3"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_bottom_4"
+            style="@style/wrapContent" />
+    </RelativeLayout>
+
+</RelativeLayout>

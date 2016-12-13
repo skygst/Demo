@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch" >
+
+    <ImageView
+        android:id="@+id/iv_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.gst.move.custom.AnimationImageView
+        android:id="@+id/iv_animation_1"
+        style="@style/wrapContent"
+        />
+</RelativeLayout>

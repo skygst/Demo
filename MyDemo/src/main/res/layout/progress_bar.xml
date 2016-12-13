@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/frame_loading" />
+
+            <!-- 大 -->
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!-- 小 -->
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!-- 中 -->
+            <ProgressBar
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:progress="50"
+                android:max="100"
+                />
+
+            <ProgressBar
+                android:id="@+id/pb_progressbar"
+                style="@style/StyleProgressBarMini"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@drawable/shape_progressbar_bg"
+                android:max="100"
+                android:progress="50" />
+
+            <com.gst.mydemo.custom.widget.SpringProgressView
+                android:id="@+id/sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <com.gst.mydemo.custom.widget.SpringProgressView
+                android:id="@+id/sp_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                />
+
+            <ProgressBar
+                android:indeterminateDrawable="@drawable/iamge_progress"
+                android:layout_height="100dp"
+                android:layout_width="100dp"/>
+
+            <ProgressBar
+                android:indeterminateDrawable="@drawable/color_progress2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="190.6dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="35"
+                android:progressDrawable="@drawable/progress_ability"
+                android:indeterminate="false" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="190.6dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="35"
+                android:progressDrawable="@drawable/progress_home_work"
+                android:indeterminate="false" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/rotate"/>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/rotate_loading_360"
+                android:indeterminateDuration="1800" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/rotate_loading_github"
+                android:indeterminateDuration="1800" />
+
+            <com.gst.mydemo.custom.widget.CustomClipLoading
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="start" />
+
+                <com.gst.mydemo.custom.widget.ProgressWheel
+                    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/progress_bar_two"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    ProgressWheel:barColor="#339BB9"
+                    ProgressWheel:barWidth="4dp"
+                    ProgressWheel:rimColor="#44000000"
+                    ProgressWheel:rimWidth="4dp"
+                    ProgressWheel:spinSpeed="3dp"
+                    ProgressWheel:text="click"
+                    ProgressWheel:textColor="#222222"
+                    ProgressWheel:textSize="14sp" />
+
+                <com.gst.mydemo.custom.widget.ProgressWheel
+                    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/progress_bar_one"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    ProgressWheel:barColor="#222"
+                    ProgressWheel:barLength="30dp"
+                    ProgressWheel:barWidth="6dp"
+                    ProgressWheel:delayMillis="75"
+                    ProgressWheel:rimColor="#4000"
+                    ProgressWheel:rimWidth="2dp"
+                    ProgressWheel:spinSpeed="20dp"
+                    ProgressWheel:textColor="#222222"
+                    ProgressWheel:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_start2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="start" />
+
+                <!-- default style -->
+
+                <com.gst.mydemo.custom.widget.PieTestProgress
+                    xmlns:PieProgress="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/pie_progress1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+                <!-- custom style -->
+
+                <com.gst.mydemo.custom.widget.PieTestProgress
+                    xmlns:PieProgress="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/pie_progress2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    PieProgress:foregroundColor="#339BB9"
+                    PieProgress:backgroundColor="#FF4444" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="7.5dp"
+                android:max="100"
+                android:progress="80"
+                android:layout_marginRight="8dp"
+                android:progressDrawable="@drawable/progressbar"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+     >
+
+    <ImageView
+        android:id="@+id/iv_word_bg"
+        style="@style/wrapContent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_word_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/tv_des"
+            style="@style/wrapContent"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="My Dog"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_4"
+        style="@style/wrapContent" />
+
+
+    <ImageView
+        android:id="@+id/iv_bottom_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_4"
+        style="@style/wrapContent" />
+    
+    <ImageView
+        android:id="@+id/iv_sentence"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget34"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="动画测试，从四种基本动画来衍生" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="@mipmap/bt_group_back" >
+
+        <Button
+            android:id="@+id/button_Last"
+            android:layout_width="64px"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/ic_cmd_last" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_Replay"
+            android:layout_width="64px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/ic_cmd_replay" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_Next"
+            android:layout_width="64px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/ic_cmd_next" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_List"
+            android:layout_width="64px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_Exit"
+            android:layout_width="65px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/ic_cmd_power" >
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="90px"
+        android:layout_height="80px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="80px"
+        android:background="@mipmap/favorite" >
+    </Button>
+
+</LinearLayout>

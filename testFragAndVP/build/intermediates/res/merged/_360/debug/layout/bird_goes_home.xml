@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        style="@style/matchMatch">
+
+        <ImageView
+            android:id="@+id/iv_card_1"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_card_2"
+            style="@style/wrapContent" />
+
+        <ImageView
+            android:id="@+id/iv_card_3"
+            style="@style/wrapContent" />
+
+        <TextView
+            android:id="@+id/tv_problem"
+            style="@style/levelAGameProblemParams"
+            android:text="Which one is the bird's home?" />
+    </RelativeLayout>
+
+
+    <com.ebodoo.raz.MyVideoView
+        android:id="@+id/video_play"
+        style="@style/matchMatch"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</RelativeLayout>

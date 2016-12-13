@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch"
+    android:background="@drawable/color_bg">
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        style="@style/matchMatch"
+        >
+
+        <ImageView
+            android:id="@+id/iv_bg"
+            style="@style/wrapContent"
+            />
+
+        <ImageView
+            android:id="@+id/iv_dotted"
+            style="@style/wrapContent"
+            />
+
+        <ImageView
+            android:id="@+id/iv_right_word"
+            style="@style/wrapContent"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_star"
+        style="@style/wrapContent"
+        android:src="@drawable/color_star"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/iv_bottom_1"
+        style="@style/wrapContent"
+        />
+    <ImageView
+        android:id="@+id/iv_bottom_2"
+        style="@style/wrapContent"
+        />
+    <ImageView
+        android:id="@+id/iv_bottom_3"
+        style="@style/wrapContent"
+        />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <ImageView
+        android:id="@+id/iv_animation_1"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_2"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_3"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_4"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_5"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_6"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_7"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv_animation_8"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

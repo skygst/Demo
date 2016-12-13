@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_num_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_num_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_num_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_egg_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_egg_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_egg_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_egg_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_egg_5"
+        style="@style/wrapContent" />
+    
+    <ImageView
+        android:id="@+id/iv_encourage"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_egg_6"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

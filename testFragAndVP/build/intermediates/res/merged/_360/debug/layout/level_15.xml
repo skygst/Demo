@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.ebodoo.raz.MyVideoView
+            android:id="@+id/video_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/bt_after"
+                android:layout_width="126dp"
+                android:layout_height="104.667dp"
+                android:src="@drawable/bt_after"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_back"
+                style="@style/wrapContent"
+                android:src="@drawable/bt_front" />
+
+            <ImageView
+                android:id="@+id/btn_shou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shou" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击效果1"
+        android:textColor="@drawable/button_font"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击效果2"
+        android:textColor="@drawable/button_font"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:padding="10dp"
+        android:background="@drawable/sel_light_green"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击效果3"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/xbutton_bg"
+        android:textSize="15sp" />
+    <!--android:textColor="@drawable/button_font"-->
+
+</LinearLayout>

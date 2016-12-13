@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baby_age">
+        <item>1岁</item>
+        <item>2岁</item>
+        <item>3岁</item>
+        <item>4岁</item>
+        <item>5岁</item>
+        <item>6岁</item>
+        <item>7岁</item>
+        <item>8岁</item>
+        <item>9岁</item>
+        <item>10岁</item>
+        <item>11岁</item>
+        <item>12岁</item>
+    </string-array>
+	<string-array name="magic_select_item">        
+     <item>有，立即使用</item>            
+     <item>没有，购买卡片</item> 
+     <item>已激活，去登录</item>   
+  </string-array>
+  <string-array name="magic_select_item2">        
+     <item>有，立即使用</item>            
+     <item>没有，购买卡片</item>  
+  </string-array>
+  
+  <string-array name="magic_select_item0">        
+     <item>有，立即使用</item>            
+     <item>没有，立即试用</item> 
+     <item>已激活，去登录</item>   
+  </string-array>
+  <string-array name="magic_select_item0_2">        
+     <item>有，立即使用</item>            
+     <item>没有，立即试用</item>  
+  </string-array>
+  
+  <string-array name="options">
+        <item>选择图片</item>
+        <item>拍照</item>
+    </string-array>
+  
+</resources>

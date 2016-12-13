@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundProgress="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="20dp" >
+
+    <!-- 指针旋转效果 -->
+    
+     <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="I am a menu" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@+id/button" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Click to show/hide menu" />
+
+    <ImageView
+        android:id="@+id/iv_move"
+        android:layout_width="114px"
+        android:layout_height="182px"
+        android:src="@drawable/fight"
+        android:layout_below="@id/button"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_below="@id/iv_move"
+        android:layout_marginTop="100dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/iv_pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@mipmap/as_observation" />
+
+            <!-- 翻牌效果 -->
+
+            <ImageView
+                android:id="@+id/iv_pic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_pic1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/as_observation" />
+
+            <ImageView
+                android:id="@+id/iv_pic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_pic2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                />
+                <!--android:src="@mipmap/iv_cilun" -->
+            <FrameLayout
+                android:id="@+id/fl_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_pic3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" >
+
+                <com.gst.mydemo.custom.widget.CircleProgress
+                    android:id="@+id/progress"
+                    android:layout_width="116dp"
+                    android:layout_height="116dp"
+                    roundProgress:Current_Progress="20"
+                    roundProgress:Inside_Interval="20"
+                    roundProgress:Paint_Width="15"
+                    roundProgress:fill="false"
+                    roundProgress:max="100" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+
+                    <TextView
+                        android:id="@+id/tv_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="68.2%"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_percent"
+                        android:layout_centerHorizontal="true"
+                        android:text="的宝宝"
+                        android:textColor="#787878"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_selected"
+                android:text="更多动画" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn_more"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="点击按钮、此窗口抖动" />
+
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="按钮" />
+
+                <ImageView
+                    android:id="@+id/main_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/mv_1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

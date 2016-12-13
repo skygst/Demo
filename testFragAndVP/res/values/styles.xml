@@ -1,0 +1,306 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="matchParentAndWrapContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="matchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="matchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="wrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="marginLeft10" parent="wrapContent">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    
+    <style name="tvColorAndSize18" parent="marginLeft10">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="tvColorAndSize22" parent="matchParentAndWrapContent">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    
+    <style name="layoutCenterVertical" parent="tvColorAndSize18">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="tvProperties" parent="wrapContent">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="tvPropertiesRight" parent="tvProperties">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    
+    <style name="left5top5" parent="matchParentAndWrapContent">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    
+    <style name="left22top5" parent="matchParentAndWrapContent">
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    
+    <style name="matchParentAndWrapContent.right25Top5">
+        <item name="android:layout_marginRight">45dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    
+    <style name="tvColorWaterBlueAndSize22" parent="matchParentAndWrapContent.right25Top5">
+        <item name="android:textColor">@color/water_blue</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    
+    <style name="MyDialogStyle">  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>  
+        <item name="android:backgroundDimEnabled">true</item>  
+</style>  
+
+    
+    <style name="MyAlertDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    
+    <!-- <style name="MyProgressBarStyleHorizontal">  
+            <item name="android:indeterminateOnly">false</item>  
+            <item name="android:progressDrawable">@drawable/my_progress</item>  
+            <item name="android:minHeight">25dip</item>  
+            <item name="android:maxHeight">25dip</item>  
+            <item name="android:focusable">false</item>  
+        </style> -->
+        
+    <style name="width60">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/touming</item>
+    </style>
+    
+    <style name="leftControl">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    
+    <style name="matchParentAndWrapContent.top10">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    
+    <!-- <style name="editAttribute" parent="matchParentAndWrapContent.top10">
+        <item name="android:background">@drawable/input_box</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+    </style> -->
+    
+    <style name="ContentOverlay" >
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">false</item>
+	</style>
+	
+    <!-- <style name="PushOutNIn">
+        <item name="android:windowEnterAnimation">@anim/push_up</item>
+        <item name="android:windowExitAnimation">@anim/push_down</item>
+    </style> -->
+    
+     <!-- Activity为半透明 -->
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="Transparent2">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+    
+    <!-- <style name="bridge_pic" parent="wrapContent">
+        <item name="android:src">@drawable/sel_plank</item>
+    </style> -->
+    
+    <style name="weight1_0" parent="wrapContent">
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="marginTop20" parent="wrapContent">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    
+    <!-- <style name="badge" parent="wrapContent">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:src">@drawable/badge</item>
+        <item name="android:visibility">gone</item>
+        
+    </style> -->
+    
+    <style name="halftransparent" >
+        <item name="android:windowBackground">@color/halftransparent</item> 
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item> 
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item> 
+    </style>
+    
+    <style name="wrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="matchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <!-- <style name="wearAlbum" parent="wrapWrap">
+        <item name="android:background">@drawable/wear_albums_sel</item>
+        <item name="android:textColor">#c38c1e</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">18sp</item>
+    </style> -->
+    
+    <style name="wearAlbum" parent="wrapWrap">
+        <item name="android:background">@drawable/wear_albums_sel</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="wearTxtAlbum" parent="matchMatch">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#c38c1e</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="wearPointAlbum" >
+        <item name="android:layout_width">6dp</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@drawable/round_red</item>
+    </style>
+    
+    <style name="btnParams" parent="wrapWrap">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    
+    <!-- <style name="Transparent">
+　　<item name="android:windowBackground">@color/focus_color</item>
+　　<item name="android:windowIsTranslucent">true</item>
+　　<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+　　</style> -->
+
+    <style name="levelAGameProblemParams" parent="wrapContent">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/w_bg_word</item>
+    </style>
+    
+    <style name="centerHorizontalParams" parent="wrapContent">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="commentsPurchaseDesParams" parent="wrapContent">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="Theme_Animation_Activity_RightInRightOut" parent="android:Theme.Light">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+    <!--<item name="android:windowAnimationStyle">@style/Animation_Activity_RightInRightOut</item>-->
+    <!--<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>-->
+
+    <!-- 用于普通的Activity -->
+    <style name="Animation_Activity_RightInRightOut" parent="@android:style/Animation.Translucent">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="etPhoneParams" parent="matchMatch">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">number</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <style name="tvPersonalParams" parent="wrapContent">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">#df6c19</item>
+        <item name="android:textSize">15sp</item>
+     </style>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.0" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1.0" >
+
+                <Button
+                    android:id="@+id/btn_level_1"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 1" />
+
+                <Button
+                    android:id="@+id/btn_level_3"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 3" />
+                <Button
+                    android:id="@+id/btn_level_5"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 5" />
+
+                <Button
+                    android:id="@+id/btn_level_7"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 7" />
+                <Button
+                    android:id="@+id/btn_level_9"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 9" />
+
+                <Button
+                    android:id="@+id/btn_level_11"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 11" />
+                <Button
+                    android:id="@+id/btn_level_13"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 13" />
+
+                <Button
+                    android:id="@+id/btn_level_15"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 15" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1.0" >
+
+                <Button
+                    android:id="@+id/btn_level_2"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 2" />
+
+                <Button
+                    android:id="@+id/btn_level_4"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 4" />
+                <Button
+                    android:id="@+id/btn_level_6"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 6" />
+
+                <Button
+                    android:id="@+id/btn_level_8"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 8" />
+                <Button
+                    android:id="@+id/btn_level_10"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 10" />
+
+                <Button
+                    android:id="@+id/btn_level_12"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 12" />
+                <Button
+                    android:id="@+id/btn_level_14"
+                    style="@style/wrapContent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="level 14" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

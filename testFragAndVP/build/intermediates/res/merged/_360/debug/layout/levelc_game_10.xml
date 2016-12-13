@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch">
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_location_1"
+        style="@style/wrapContent"
+        android:src="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/iv_location_2"
+        style="@style/wrapContent"
+        android:src="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/iv_location_3"
+        style="@style/wrapContent"
+        android:src="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/iv_location_4"
+        style="@style/wrapContent"
+        android:src="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/iv_stump_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_stump_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_stump_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_stump_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_musical_instruments_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_musical_instruments_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_musical_instruments_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_musical_instruments_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <TextView
+        android:id="@+id/tv_sentence"
+        style="@style/wrapContent"
+        android:layout_below="@id/iv_stump_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_card"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_color_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_color_2"
+        style="@style/wrapContent" />
+    
+    <ImageView
+        android:id="@+id/iv_encourage"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

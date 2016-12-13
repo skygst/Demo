@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bg"
+    style="@style/matchMatch" >
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_order"
+        style="@style/wrapContent" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_shopping_cart"
+        style="@style/wrapContent" />
+
+    <com.ebodoo.raz.custom.HorizontalListView
+        android:id="@+id/horizon_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <com.ebodoo.raz.custom.CusomSwipeView
+        android:id="@+id/id_recyclerview_horizontal"
+        style="@style/matchMatch"
+        android:layout_marginTop="50dp"
+        android:scrollbars="none" />
+
+    </LinearLayout>
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerview_horizontal"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerview_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:background="#FF0000"
+        android:scrollbars="none"
+        ></android.support.v7.widget.RecyclerView>-->
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_coupon"
+        style="@style/wrapContent" />
+
+   <!-- <include
+        android:id="@+id/rl_define_progress"
+        style="@style/matchMatch"
+        layout="@layout/define_progress"
+        android:visibility="gone" />-->
+
+</RelativeLayout>

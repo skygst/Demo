@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/iv_num_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_num_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_num_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_num_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_num_5"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_5"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_arrow_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_arrow_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_arrow_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_arrow_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg_5"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_card_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_card_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_card_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_card_5"
+        style="@style/wrapContent" />
+
+    <TextView
+        android:id="@+id/tv_name_1"
+        style="@style/wrapContent"
+        android:layout_alignLeft="@id/iv_bottom_bg_1"
+        android:layout_alignRight="@id/iv_bottom_bg_1"
+        android:layout_below="@id/iv_bottom_bg_1"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:id="@+id/tv_name_2"
+        style="@style/wrapContent"
+        android:layout_alignLeft="@id/iv_bottom_bg_2"
+        android:layout_alignRight="@id/iv_bottom_bg_2"
+        android:layout_below="@id/iv_bottom_bg_2"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:id="@+id/tv_name_3"
+        style="@style/wrapContent"
+        android:layout_alignLeft="@id/iv_bottom_bg_3"
+        android:layout_alignRight="@id/iv_bottom_bg_3"
+        android:layout_below="@id/iv_bottom_bg_3"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:id="@+id/tv_name_4"
+        style="@style/wrapContent"
+        android:layout_alignLeft="@id/iv_bottom_bg_4"
+        android:layout_alignRight="@id/iv_bottom_bg_4"
+        android:layout_below="@id/iv_bottom_bg_4"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:id="@+id/tv_name_5"
+        style="@style/wrapContent"
+        android:layout_alignLeft="@id/iv_bottom_bg_5"
+        android:layout_alignRight="@id/iv_bottom_bg_5"
+        android:layout_below="@id/iv_bottom_bg_5"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="-3dp" />
+
+</RelativeLayout>

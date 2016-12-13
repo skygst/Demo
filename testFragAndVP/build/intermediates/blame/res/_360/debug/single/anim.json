@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\shake.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\cycle.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\cycle.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\back_scale.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\back_scale.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\star.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\star.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\slide_in_left.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\shake_y.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\shake_y.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\slide_out_right.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\shake_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\shake_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\translate_thank_you_tyrant.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\translate_thank_you_tyrant.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\front_scale.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\front_scale.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\flop.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\flop.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\cycle_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\cycle_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\iv_rotate.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\iv_rotate.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\anim\\cycle_7.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\anim\\cycle_7.xml"
+    }
+]

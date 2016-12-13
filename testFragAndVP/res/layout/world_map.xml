@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+         <HorizontalScrollView
+        android:id="@+id/hsl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+    -->
+
+    <com.gst.move.custom.MyHorizonScrollView
+        android:id="@+id/hsl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:id="@+id/rl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <!--
+                 <include
+                android:id="@+id/rl_country"
+                layout="@layout/country_item" />
+            -->
+
+            <ImageView
+                android:id="@+id/iv_country_1"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_1" />
+
+            <ImageView
+                android:id="@+id/iv_country_2"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_2" />
+
+            <ImageView
+                android:id="@+id/iv_country_3"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_3" />
+
+            <ImageView
+                android:id="@+id/iv_country_4"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_4" />
+
+            <ImageView
+                android:id="@+id/iv_country_5"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_5" />
+
+            <ImageView
+                android:id="@+id/iv_chess_1"
+                style="@style/wrapWrap"
+                android:src="@drawable/chess_1" />
+
+            <ImageView
+                android:id="@+id/iv_country_6"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_6" />
+
+            <ImageView
+                android:id="@+id/iv_country_7"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_7" />
+
+            <ImageView
+                android:id="@+id/iv_country_8"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_8" />
+
+            <ImageView
+                android:id="@+id/iv_country_9"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_9" />
+
+            <ImageView
+                android:id="@+id/iv_country_10"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_10" />
+
+            <ImageView
+                android:id="@+id/iv_chess_2"
+                style="@style/wrapWrap"
+                android:src="@drawable/chess_2" />
+
+            <ImageView
+                android:id="@+id/iv_country_11"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_11" />
+
+            <ImageView
+                android:id="@+id/iv_country_12"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_12" />
+
+            <ImageView
+                android:id="@+id/iv_country_13"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_13" />
+
+            <ImageView
+                android:id="@+id/iv_country_14"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_14" />
+
+            <ImageView
+                android:id="@+id/iv_country_15"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_15" />
+
+            <ImageView
+                android:id="@+id/iv_chess_3"
+                style="@style/wrapWrap"
+                android:src="@drawable/chess_3" />
+
+            <ImageView
+                android:id="@+id/iv_country_16"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_16" />
+
+            <ImageView
+                android:id="@+id/iv_country_17"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_17" />
+
+            <ImageView
+                android:id="@+id/iv_country_18"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_18" />
+
+            <ImageView
+                android:id="@+id/iv_country_19"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_19" />
+
+            <ImageView
+                android:id="@+id/iv_country_20"
+                style="@style/wrapWrap"
+                android:src="@drawable/country_20" />
+
+            <ImageView
+                android:id="@+id/iv_chess_4"
+                style="@style/wrapWrap"
+                android:src="@drawable/chess_4" />
+
+            <include
+                android:id="@+id/rl_flag"
+                layout="@layout/flag_item" />
+
+            <include
+                android:id="@+id/rl_lock"
+                layout="@layout/lock_item" />
+        </RelativeLayout>
+        <!-- </HorizontalScrollView> -->
+
+    </com.gst.move.custom.MyHorizonScrollView>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <ImageView
+        android:id="@+id/iv_box"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

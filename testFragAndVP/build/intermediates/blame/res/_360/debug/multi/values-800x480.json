@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\incremental\\merge_360DebugResources\\merged.dir\\values-800x480\\values-800x480.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\values-800x480\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 5,
+                        "startOffset": 106,
+                        "endColumn": 46,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 47,
+                    "endOffset": 144
+                },
+                "from": {
+                    "file": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\values-800x480\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 5,
+                        "startOffset": 154,
+                        "endColumn": 48,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 149,
+                    "endColumn": 43,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\values-800x480\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 5,
+                        "startOffset": 60,
+                        "endColumn": 44,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]

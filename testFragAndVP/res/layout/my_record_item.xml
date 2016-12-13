@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    style="@style/matchWrap" >
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        style="@style/matchWrap"
+        android:layout_below="@+id/rl_layout"
+        android:layout_marginLeft="@dimen/comment_bottom"
+        android:layout_marginRight="@dimen/comment_bottom"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/recording_comment" >
+
+        <include layout="@layout/record_comment" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_right"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/comment_left" />
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        style="@style/matchWrap"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/comment_left"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/view_right"
+        android:background="@drawable/audio_item_new" >
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_share"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/record_share" />
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_comments"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/iv_share" />
+
+        <com.ebodoo.raz.custom.DefineRoundImageView
+            android:id="@+id/iv_book_pic"
+            style="@style/wrapContent"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            android:src="@drawable/default_avatar" />
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_play"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_toRightOf="@id/iv_book_pic"
+            android:layout_alignBottom="@id/iv_book_pic"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/record_play" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/matchWrap"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/iv_comments"
+            android:layout_toRightOf="@id/iv_book_pic"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Farm AnimalsFarm"
+            android:textColor="@color/blue3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_duration"
+            style="@style/wrapContent"
+            android:layout_below="@id/tv_title"
+            android:layout_toRightOf="@id/iv_book_pic"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="00:12"
+            android:textColor="@color/blue3"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/wrapContent"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_duration"
+            android:text="2015.01.06"
+            android:textColor="@color/blue3"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!--
+         <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_del"
+        style="@style/wrapContent"
+        android:src="@drawable/comments_del" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/rl_check_box"
+        style="@style/matchMatch"
+        android:layout_alignBottom="@id/rl_layout"
+        android:layout_alignTop="@id/rl_layout"
+        android:layout_toRightOf="@id/rl_layout" >
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            style="@style/wrapContent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/check_box_bg"
+            android:button="@null" />
+    </RelativeLayout>
+
+</RelativeLayout>

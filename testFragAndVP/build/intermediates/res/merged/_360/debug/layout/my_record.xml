@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58bdef">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#a4e1ff">
+
+        <View
+            android:id="@+id/view_h_center"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_all"
+            style="@style/wrapContent"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/view_h_center"
+            android:background="@drawable/title_bg"
+            android:gravity="center"
+            android:text="全部"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_already_comment"
+            style="@style/wrapContent"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/view_h_center"
+            android:gravity="center"
+            android:text="已点评"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_del"
+            style="@style/wrapContent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="删除"
+            android:textColor="@color/white"
+            android:background="@drawable/sel_bg"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="1dp"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"></ListView>
+
+    <ImageView
+        android:id="@+id/bt_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/bt_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bt_front" />
+
+    <include
+        android:id="@+id/rl_define_progress"
+        style="@style/matchMatch"
+        layout="@layout/define_progress"
+        android:visibility="gone" />
+
+</RelativeLayout>

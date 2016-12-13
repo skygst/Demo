@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--xmlns:zhy="http://schemas.android.com/apk/res/com.gst.mydemo"-->
+
+
+    <com.gst.mydemo.custom.widget.RoundImageView
+        android:id="@+id/iv_pic_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+    <com.gst.mydemo.custom.widget.RoundImageView
+        android:id="@+id/iv_pic_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_pic_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--<com.gst.mydemo.custom.widget.DefineRoundImageView-->
+    <com.gst.mydemo.custom.widget.RoundImageView
+        android:id="@+id/iv_pic_3"
+        android:layout_width="131dp"
+        android:layout_height="82dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        />
+    <!--zhy:borderRadius="5dp"
+    zhy:type="round"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_pic_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/eyu_1" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_2" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_3" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_4" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_5" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_6" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_7" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_8" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_9" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_10" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_11" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_12" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_13" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_14" android:duration="80"/>
+    <item android:drawable="@drawable/eyu_15" android:duration="80"/>
+
+</animation-list>

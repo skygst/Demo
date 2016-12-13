@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <TextView
+        android:id="@+id/tv_problem"
+        style="@style/levelAGameProblemParams"
+        android:text="Where is the hamster?" />
+    
+    <com.gst.move.custom.AnimationImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent"
+        android:visibility="gone"
+         />
+    
+    <ImageView 
+        android:id="@+id/iv_shou"
+        style="@style/wrapContent"
+        android:src="@drawable/shou"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <RelativeLayout
+            android:id="@+id/rl_view"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iv_pic"
+                android:layout_width="250dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/rl_tv_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_pic"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/background_view_rounded_bottom_3"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="宝宝快要上幼儿园\n祝他来年交到好朋友"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_1"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="恭喜发财"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_receive"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/rl_tv_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-15dp"
+                android:background="@drawable/corner_box_yellow">
+
+                <Button
+                    android:id="@+id/btn_down_load"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@null"
+                    android:text="点击下载"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-14dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/rl_view"
+            android:visibility="visible"
+            android:src="@mipmap/close" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/child_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_medal_item"
+            style="@style/wrapContent"
+            android:src="@drawable/medal_0_1"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.ebodoo.raz.MyVideoView
+            android:id="@+id/video_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/rl_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/rl_lailai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+            <ImageView
+                android:id="@+id/iv_reader"
+                style="@style/wrapContent"
+                android:src="@drawable/sound" />
+
+                <ImageView
+                    android:id="@+id/iv_card_1"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_card_2"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_card_3"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_card_4"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_answer_1"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_answer_2"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_answer_3"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_answer_4"
+                    style="@style/wrapContent" />
+
+                <ImageView
+                    android:id="@+id/iv_word_bg"
+                    style="@style/wrapContent"
+                    android:src="@drawable/card_bottom_bg"
+                     />
+                
+                <ImageView
+                    android:id="@+id/iv_word"
+                    style="@style/wrapContent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_sister"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <ImageView 
+                    android:id="@+id/iv_sister_card"
+                    style="@style/wrapContent"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_1"
+                    style="@style/wrapContent"
+                     android:src="@drawable/white_box"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_2"
+                    style="@style/wrapContent"
+                    android:src="@drawable/white_box"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_3"
+                    style="@style/wrapContent"
+                    android:src="@drawable/white_box"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_card_1"
+                    style="@style/wrapContent"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_card_2"
+                    style="@style/wrapContent"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_card_3"
+                    style="@style/wrapContent"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_bottom_card_1"
+                    style="@style/wrapContent"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_bottom_card_2"
+                    style="@style/wrapContent"
+                    />
+                <ImageView 
+                    android:id="@+id/iv_sister_white_box_bottom_card_3"
+                    style="@style/wrapContent"
+                    />
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_num"
+                style="@style/wrapContent"
+                android:background="@drawable/count2" >
+
+                <TextView
+                    android:id="@+id/tv_num"
+                    style="@style/wrapContent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="2 / 8"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_cloud"
+                style="@style/wrapContent"
+                android:src="@drawable/cloud" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/bt_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bt_front" />
+
+            <ImageView
+                android:id="@+id/btn_readagain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/read"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_shou"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

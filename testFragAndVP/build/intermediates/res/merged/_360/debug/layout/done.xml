@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bird_goes_home_bg" >
+
+
+    <TextView
+        android:id="@+id/tv_answer_right"
+        style="@style/wrapContent" />
+    
+    <TextView
+        android:id="@+id/tv_answer_right_num"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        style="@style/wrapContent" />
+
+    <TextView
+        android:id="@+id/tv_good"
+        style="@style/wrapContent" />
+    <TextView
+        android:id="@+id/tv_keep_it_up"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

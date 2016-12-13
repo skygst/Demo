@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--com.gst.mydemo.custom.widget.MyScrollview2-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="切换横竖屏"
+                />
+
+            <TextView
+                android:id="@+id/tv_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/btn_change"
+                android:text="房间挨了家加额阿瓦王立军阿瓦拉减肥啦我节流阀家娃拉网覅我我爱我我为房间玩我将军令蜂王浆按法律为房间爱玩了房间瓦房姐啊王连发房间爱我房间爱晚放假晚  "
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/tv_txt"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

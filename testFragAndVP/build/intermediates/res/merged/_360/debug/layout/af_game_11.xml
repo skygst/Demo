@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_read"
+        style="@style/wrapContent" 
+        android:background="@drawable/reread"
+        />
+    
+    <ImageView
+        android:id="@+id/iv_card"
+        style="@style/wrapContent" />
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_wright"
+        style="@style/wrapContent" />
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_wrong"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_sentence"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

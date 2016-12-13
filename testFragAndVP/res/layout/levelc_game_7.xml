@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch">
+
+    <ImageView
+        android:id="@+id/iv_card"
+        style="@style/wrapContent" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_pic_1"
+        style="@style/wrapContent" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_pic_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <View
+        android:id="@+id/view_above"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_above="@id/iv_card"
+        />
+
+    <TextView
+        android:id="@+id/tv_sentence"
+        style="@style/wrapContent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_card"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

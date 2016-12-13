@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+        android:toDegrees="+360" />
+
+</set>
+
+ <!-- 设置上两个参数
+repeatMode 开启循环模式
+repeatCount 设置为-1时表示无限循环  -->

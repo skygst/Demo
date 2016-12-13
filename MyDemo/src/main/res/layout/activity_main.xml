@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app">
+
+    <include
+        android:id="@+id/title_styles"
+        layout="@layout/title_styles"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_styles"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.0" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <Button
+                    android:id="@+id/btn_btnCustom"
+                    style="@style/main_status"
+                    android:text="自定义控件" />
+
+                <Button
+                    android:id="@+id/btn_lines"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_btnCustom"
+                    android:text="自定义虚线和框" />
+
+                <Button
+                    android:id="@+id/btn_animation"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_lines"
+                    android:text="animation动画效果的使用" />
+
+                <Button
+                    android:id="@+id/btn_controls"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_animation"
+                    android:text="不同控件的使用方法" />
+
+                <Button
+                    android:id="@+id/btn_lock_screen"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_controls"
+                    android:text="手势解锁" />
+                <!--
+                                                <Button
+                                                    android:id="@+id/btn_gallery"
+                                                    style="@style/main_status"
+                                                    android:layout_below="@id/btn_listView"
+                                                    android:text="Gallery的使用" />
+
+                                                <Button
+                                                    android:id="@+id/btn_animation"
+                                                    style="@style/main_status"
+                                                    android:layout_below="@id/btn_gallery"
+                                                    android:text="animation动画效果的使用" />
+
+                                                <Button
+                                                    android:id="@+id/btn_imageview"
+                                                    style="@style/main_status"
+                                                    android:layout_below="@id/btn_animation"
+                                                    android:text="ImageView 控件的使用" />
+                                                <Button
+                                                    android:id="@+id/btn_txtview"
+                                                    style="@style/main_status"
+                                                    android:layout_below="@id/btn_imageview"
+                                                    android:text="TextView 控件的使用" />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <Button
+                    android:id="@+id/btn_custom_dialog"
+                    style="@style/main_status"
+                    android:text="Dialog的使用" />
+
+                <Button
+                    android:id="@+id/btn_webview"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_custom_dialog"
+                    android:text="WebView的使用" />
+
+                <Button
+                    android:id="@+id/btn_listView_value"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_webview"
+                    android:text="ListView的用法测试" />
+
+                 <Button
+                     android:id="@+id/btn_click_effect"
+                     style="@style/main_status"
+                     android:layout_below="@id/btn_listView_value"
+                     android:text="按钮的点击效果" />
+
+                <Button
+                    android:id="@+id/btn_db_test"
+                    style="@style/main_status"
+                    android:layout_below="@id/btn_click_effect"
+                    android:text="数据库 测试" />
+                <!--
+                                                 <Button
+                                                     android:id="@+id/btn_braodcast"
+                                                     style="@style/main_status"
+                                                     android:layout_below="@id/btn_cycle"
+                                                     android:text="广播的使用" />
+
+                                                 <Button
+                                                     android:id="@+id/btn_listView_value"
+                                                     style="@style/main_status"
+                                                     android:layout_below="@id/btn_braodcast"
+                                                     android:text="ListView的用法测试" />
+                                                 <Button
+                                                     android:id="@+id/btn_shap"
+                                                     style="@style/main_status"
+                                                     android:layout_below="@id/btn_listView_value"
+                                                     android:text="Android shap 控件美化" />-->
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

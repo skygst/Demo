@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wear_ear_bg" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wear_title_bg" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bt_front" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="专辑列表"
+            android:textColor="#ca8214"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iv_history"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/wear_history" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title_bg"
+        android:layout_marginTop="10dp" >
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_below="@+id/rl_albums_sel"
+            android:layout_marginTop="-2dp"
+            android:background="#cd9800" />
+
+        <RelativeLayout
+            android:id="@+id/rl_albums_sel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_albums_1"
+                style="@style/wearAlbum" >
+
+                <TextView
+                    android:id="@+id/tv_albums_1"
+                    style="@style/wearTxtAlbum" />
+
+                <View
+                    android:id="@+id/view_round_1"
+                    style="@style/wearPointAlbum" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_albums_2"
+                style="@style/wearAlbum" >
+
+                <TextView
+                    android:id="@+id/tv_albums_2"
+                    style="@style/wearTxtAlbum" />
+
+                <View
+                    android:id="@+id/view_round_2"
+                    style="@style/wearPointAlbum" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_albums_3"
+                style="@style/wearAlbum" >
+
+                <TextView
+                    android:id="@+id/tv_albums_3"
+                    style="@style/wearTxtAlbum" />
+
+                <View
+                    android:id="@+id/view_round_3"
+                    style="@style/wearPointAlbum" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_albums_4"
+                style="@style/wearAlbum" >
+
+                <TextView
+                    android:id="@+id/tv_albums_4"
+                    style="@style/wearTxtAlbum" />
+
+                <View
+                    android:id="@+id/view_round_4"
+                    style="@style/wearPointAlbum" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_albums_5"
+                style="@style/wearAlbum" >
+
+                <TextView
+                    android:id="@+id/tv_albums_5"
+                    style="@style/wearTxtAlbum" />
+
+                <View
+                    android:id="@+id/view_round_5"
+                    style="@style/wearPointAlbum" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_albums_6"
+                style="@style/wearAlbum" >
+
+                <TextView
+                    android:id="@+id/tv_albums_6"
+                    style="@style/wearTxtAlbum" />
+
+                <View
+                    android:id="@+id/view_round_6"
+                    style="@style/wearPointAlbum" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_sel"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.ebodoo.raz.custom.MyGridView
+                android:id="@+id/myGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:horizontalSpacing="7dp"
+                android:listSelector="@null"
+                android:numColumns="4"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="13dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

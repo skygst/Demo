@@ -1,0 +1,726 @@
+[
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\say_it.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\say_it.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_comment_buy_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_comment_buy_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_4.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_4.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\in_and_out_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\in_and_out_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\sel_level.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\sel_level.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\baa_sheep_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\baa_sheep_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_15.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_15.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_parallax_scrollview.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_parallax_scrollview.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_20.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_20.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\video_play.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\video_play.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_4.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_4.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\speak_loudly_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\speak_loudly_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\wear_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\wear_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\game_gogo.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\game_gogo.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\activity_main.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_10.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_10.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_5.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_5.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\hamster_home_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\hamster_home_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_3.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_3.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\common_good.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\common_good.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_18.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_18.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\speak_loudly.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\speak_loudly.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_01.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_01.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\listen_sound_choice_word.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\listen_sound_choice_word.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\contact_service.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\contact_service.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_14.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_14.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_colors_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_colors_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_03.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_03.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level3_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level3_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\wear_ear.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\wear_ear.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\test_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\test_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\humpty_dumpty_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\humpty_dumpty_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_a_main.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_a_main.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_19.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_19.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_16.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_16.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\img_animation.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\img_animation.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_dialog_radiobutton.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_dialog_radiobutton.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_9.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_9.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level5_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level5_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_game.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_game.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_hair_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_hair_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\fragment7.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\fragment7.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_comment_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_comment_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_18.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_18.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_recorder_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_recorder_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_comments_to_buy_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_comments_to_buy_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_8.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_8.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\medal.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\medal.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_dialog_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_dialog_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\choice.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\choice.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level5_0.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level5_0.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\success_sayit.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\success_sayit.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\book_room.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\book_room.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_12.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_12.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_19.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_19.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\coloring_b_game.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\coloring_b_game.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\hamster_home_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\hamster_home_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_13.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_13.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level3_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level3_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\book_record_finish.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\book_record_finish.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_12.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_12.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_8.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_8.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\fragment6.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\fragment6.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\buy_speak_loudy.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\buy_speak_loudy.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\item_wear_video_albums.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\item_wear_video_albums.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_14.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_14.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\shop.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\shop.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\footer_loading.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\footer_loading.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_record.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_record.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\myfragment.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\myfragment.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_11.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_11.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_8.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_8.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_record_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_record_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_17.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_17.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_05.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_05.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\lock_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\lock_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_02.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_02.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\to_school_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\to_school_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\phone_login.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\phone_login.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\progress_dialog.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_dog_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_dog_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\little_hen_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\little_hen_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_8.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_8.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_5.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_5.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\item_wear_video_albums_detail.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\item_wear_video_albums_detail.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\wear_video_album_history.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\wear_video_album_history.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\these_shoes_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\these_shoes_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_07.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_07.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\fragment4.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\fragment4.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_10.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_10.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_12.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_12.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_5.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_5.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_15.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_15.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_9.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_9.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_10.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_10.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_08.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_08.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_9.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_9.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_5.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_5.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\animation_move.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\animation_move.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\comments_info.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\comments_info.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\fragment3.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\fragment3.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\home_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\home_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\flag_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\flag_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_16.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_16.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\video_play_web_view.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\video_play_web_view.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_11.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_11.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\my_room_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\my_room_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_4.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_4.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\video_loading_progress.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\video_loading_progress.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\item_wear_history.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\item_wear_history.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_7.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_7.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\these_shoes_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\these_shoes_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\activity_home.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_06.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_06.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_3.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_3.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_09.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_09.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\quiz01.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\quiz01.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_6.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_6.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_10.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_10.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\sentence_b.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\sentence_b.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_7.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_7.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_13.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_13.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\what_i_like_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\what_i_like_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_04.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_04.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_6.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_6.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\answer_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\answer_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\medal_detail.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\medal_detail.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\wear_sel.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\wear_sel.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\activity_mall.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\activity_mall.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level4_0.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level4_0.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level3_0.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level3_0.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\pond_animals_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\pond_animals_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_13.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_13.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\he_runs_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\he_runs_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\mall_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\mall_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_20.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_20.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\asia_level5_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\asia_level5_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_7.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_7.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\little_hen_2.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\little_hen_2.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\activity_new_home.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\activity_new_home.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_6.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_6.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\activity_video_play.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\activity_video_play.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_15.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_15.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\gridview_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\personal_info.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\personal_info.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\wear_video_item_detail.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\wear_video_item_detail.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_dialog_3.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_dialog_3.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\shop_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\shop_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\activity_mv_play.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\activity_mv_play.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_4.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_4.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\bird_goes_home.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\bird_goes_home.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\define_progress.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\define_progress.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_11.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_11.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_14.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_14.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\record_comment.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\record_comment.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\sentence_a.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\sentence_a.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\progress_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\progress_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\success.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\success.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\level_b_game_17.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\level_b_game_17.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\comments_purchase.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\comments_purchase.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\af_game_3.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\af_game_3.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\levelc_game_7.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\levelc_game_7.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_3.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_3.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\fragment5.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\fragment5.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\wear_video_album.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\wear_video_album.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_0.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_0.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\big_cat_1.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\big_cat_1.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\world_map.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\world_map.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\coloring_game.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\coloring_game.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\done.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\done.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\medal_item.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\medal_item.xml"
+    },
+    {
+        "merged": "D:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\res\\merged\\_360\\debug\\layout\\aa_6.xml",
+        "source": "D:\\as_workspace\\MyApplication\\testFragAndVP\\res\\layout\\aa_6.xml"
+    }
+]

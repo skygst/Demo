@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    style="@style/matchMatch"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_2_bg"
+        style="@style/wrapContent" />
+    
+    <ImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_1_bg_1"
+        style="@style/wrapContent" />
+    
+    <ImageView
+        android:id="@+id/iv_bottom_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_1_bg_2"
+        style="@style/wrapContent" />
+
+    <TextView
+        android:id="@+id/tv_problem"
+        style="@style/levelAGameProblemParams"
+        android:text="Take the books out of the basket." />
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromYDelta="0"
+    android:interpolator="@anim/cycle"
+    android:toYDelta="15" >
+
+</translate>
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromYDelta="684"
+    android:toYDelta="782" 
+    android:interpolator="@anim/cycle"
+    android:fromXDelta="658"
+    android:toXDelta="448"
+    >
+
+</translate> -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <EditText
+        android:id="@+id/mEtName"
+        android:hint="请输入联系人的姓名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/mEtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入联系人的电话"
+        android:inputType="phone" />
+    <Button
+        android:onClick="test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试" />
+    <Button
+        android:onClick="add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+    <Button
+        android:onClick="delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="删除" />
+    <Button
+        android:onClick="update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="修改" />
+    <Button
+        android:onClick="query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查询-显示数据库所有内容" />
+    <Button
+        android:onClick="deleteAll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="删除-表里所有内容" />
+    <Button
+        android:onClick="deleteDb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="删除-数据库" />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bg"
+    style="@style/matchMatch"
+    android:background="@drawable/sentence_a_1_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_sentence"
+        style="@style/wrapContent"
+        android:text="Apple apple, on a tree!"
+        android:textColor="@color/black"
+        android:background="@drawable/corner_box_white_10"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/iv_tree"
+        style="@style/wrapContent"
+        android:src="@drawable/sentence_a_tree"
+        />
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent"
+        android:src="@drawable/sentence_a_apple_1"
+        />
+    <ImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent"
+        android:src="@drawable/sentence_a_apple_2"
+        />
+    <ImageView
+        android:id="@+id/iv_card_3"
+        style="@style/wrapContent"
+        android:src="@drawable/sentence_a_apple_2"
+        />
+
+    <ImageView
+        android:id="@+id/iv_num_1"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        android:src="@drawable/sentence_ant_num_1"
+        />
+    <ImageView
+        android:id="@+id/iv_num_2"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        android:src="@drawable/sentence_ant_num_2"
+        />
+    <ImageView
+        android:id="@+id/iv_num_3"
+        style="@style/wrapContent"
+        android:visibility="gone"
+        android:src="@drawable/sentence_ant_num_3"
+        />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <ImageView
+        android:id="@+id/iv_shou"
+        style="@style/wrapContent"
+        android:src="@drawable/shou"
+        />
+
+</RelativeLayout>

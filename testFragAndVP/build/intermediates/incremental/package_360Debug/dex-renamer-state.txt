@@ -1,0 +1,7 @@
+#Fri Dec 02 14:38:32 CST 2016
+base.0=D\:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\transforms\\dex\\_360\\debug\\folders\\1000\\10\\instant-run_d72182c8981abc6414e89b2acf77f9b612c7a0f0
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\transforms\\dex\\_360\\debug\\folders\\1000\\10\\instant-run-bootstrap_7dc9931e58b16831e439af55eef0d98e91d85557\\classes.dex
+base.1=D\:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\transforms\\dex\\_360\\debug\\folders\\1000\\10\\instant-run-bootstrap_7dc9931e58b16831e439af55eef0d98e91d85557
+file.0=D\:\\as_workspace\\MyApplication\\testFragAndVP\\build\\intermediates\\transforms\\dex\\_360\\debug\\folders\\1000\\10\\instant-run_d72182c8981abc6414e89b2acf77f9b612c7a0f0\\classes.dex

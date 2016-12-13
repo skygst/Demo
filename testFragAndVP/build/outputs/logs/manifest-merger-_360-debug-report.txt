@@ -1,0 +1,672 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:2:1-380:12
+	package
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:4:5-27
+	android:versionName
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:6:5-30
+		INJECTED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml
+		INJECTED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:5:5-28
+		INJECTED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml
+		INJECTED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:8:5-12:11
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:11:9-58
+	android:targetSdkVersion
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:10:9-38
+	android:minSdkVersion
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:9:9-34
+uses-permission#android.permission.INTERNET
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:23:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:27:22-68
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:29:5-76
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:29:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:30:5-68
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:30:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:31:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:32:5-66
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:32:22-63
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:33:5-73
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:33:22-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:35:5-72
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:35:22-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:36:5-70
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:36:22-67
+uses-feature#android.hardware.camera
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:38:5-60
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:38:19-57
+uses-permission#android.permission.CAMERA
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:39:5-65
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:39:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:40:22-77
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:41:5-70
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:41:19-67
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:42:5-84
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:42:22-81
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:45:5-85
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:45:22-82
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:46:5-78
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:46:22-75
+application
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:48:5-378:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:52:9-41
+	android:allowBackup
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:50:9-35
+	android:icon
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:51:9-45
+	android:theme
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:53:9-67
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:49:9-57
+meta-data#UMENG_APPKEY
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:56:9-58:56
+	android:value
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:58:13-53
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:57:13-40
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:59:9-61:64
+	android:value
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:61:13-61
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:60:13-48
+meta-data#UMENG_CHANNEL
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:62:9-64:54
+	android:value
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:64:13-51
+		INJECTED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:63:13-41
+activity#com.gst.move.home_work.ColoringBGameActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:69:9-80:20
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:74:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:72:13-43
+	android:configChanges
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:71:13-59
+	android:theme
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:73:13-47
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:70:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:75:13-79:29
+action#android.intent.action.MAIN
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:76:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:78:27-74
+activity#com.gst.move.test_demo.VideoPlayActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:86:9-89:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:89:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:88:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:87:13-56
+activity#com.gst.move.test_demo.BuySpeakLoudlyDialogActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:90:9-95:15
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:93:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:92:13-43
+	android:theme
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:94:13-51
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:91:13-67
+activity#com.gst.move.level_c_game.MedalActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:96:9-100:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:100:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:98:13-43
+	android:theme
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:99:13-48
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:97:13-55
+activity#com.gst.move.level_c_game.EbookLevelCGame7Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:111:9-114:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:114:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:113:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:112:13-66
+activity#com.gst.move.level_c_game.EbookLevelCGame8Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:115:9-118:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:118:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:117:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:116:13-66
+activity#com.gst.move.level_c_game.EbookLevelCGame9Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:119:9-122:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:122:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:121:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:120:13-66
+activity#com.gst.move.level_c_game.EbookLevelCGame10Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:123:9-126:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:126:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:125:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:124:13-67
+activity#com.gst.move.level_c_game.EbookLevelCGame2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:131:9-134:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:134:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:133:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:132:13-66
+activity#com.gst.move.level_c_game.EbookLevelCGame3Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:135:9-138:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:138:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:137:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:136:13-66
+activity#com.gst.move.level_c_game.EbookLevelCGame4Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:139:9-142:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:142:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:141:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:140:13-66
+activity#com.gst.move.level_c_game.EbookLevelCGame5Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:143:9-146:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:146:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:145:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:144:13-66
+activity#com.gst.move.level_a.LevelABirdGoesHomeActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:149:9-152:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:152:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:151:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:150:13-63
+activity#com.gst.move.level_a.LevelAHamsterHome1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:153:9-156:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:156:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:155:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:154:13-63
+activity#com.gst.move.level_a.LevelAHamsterHome2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:157:9-160:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:160:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:159:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:158:13-63
+activity#com.gst.move.level_a.LevelAHeRuns2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:161:9-164:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:164:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:163:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:162:13-58
+activity#com.gst.move.level_a.LevelAMyDog2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:165:9-168:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:168:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:167:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:166:13-57
+activity#com.gst.move.level_a.LevelAMyHair1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:169:9-172:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:172:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:171:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:170:13-58
+activity#com.gst.move.level_a.LevelAMyRoom2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:173:9-176:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:176:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:175:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:174:13-58
+activity#com.gst.move.level_a.LevelAPondAnimals2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:177:9-180:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:180:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:179:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:178:13-63
+activity#com.gst.move.level_a.LevelATheseShoes1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:181:9-184:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:184:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:183:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:182:13-62
+activity#com.gst.move.level_a.LevelATheseShoes2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:185:9-188:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:188:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:187:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:186:13-62
+activity#com.gst.move.level_a.LevelAWhatILike1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:189:9-192:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:192:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:191:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:190:13-61
+activity#com.gst.move.level_a.LevelAMyColors1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:193:8-196:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:196:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:195:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:194:13-60
+activity#com.gst.move.level_a.LevelABaaSheep1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:197:9-200:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:200:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:199:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:198:13-60
+activity#com.gst.move.level_a.LevelAToSchool1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:201:9-204:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:204:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:203:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:202:13-60
+activity#com.gst.move.level_a.LevelAHumptyDumpty2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:205:9-208:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:208:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:207:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:206:13-64
+activity#com.gst.move.level_a.LevelALittleHen1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:209:9-212:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:212:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:211:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:210:13-61
+activity#com.gst.move.level_a.LevelALittleHen2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:213:9-216:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:216:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:215:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:214:13-61
+activity#com.gst.move.level_a.LevelAInAndOut2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:217:9-220:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:220:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:219:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:218:13-60
+activity#com.gst.move.level_a.LevelABigCat1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:221:9-224:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:224:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:223:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:222:13-58
+activity#com.gst.move.level_a.CommonGoodActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:225:9-229:51
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:228:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:227:13-43
+	android:theme
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:229:13-48
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:226:13-55
+activity#com.gst.move.test.WearEarActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:232:9-236:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:236:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:235:13-43
+	android:configChanges
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:234:13-59
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:233:13-61
+activity#com.gst.move.game.LevelAaGame1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:250:9-253:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:253:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:252:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:251:13-66
+activity#com.gst.move.game.LevelAaGame2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:254:9-257:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:257:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:256:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:255:13-66
+activity#com.gst.move.game.LevelAaGame3Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:258:9-261:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:261:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:260:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:259:13-66
+activity#com.gst.move.game.LevelAaGame4Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:262:9-265:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:265:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:264:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:263:13-66
+activity#com.gst.move.game.LevelAaGame5Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:266:9-269:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:269:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:268:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:267:13-66
+activity#com.gst.move.game.LevelAaGame6Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:270:9-273:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:273:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:272:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:271:13-66
+activity#com.gst.move.game.LevelAaGame7Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:274:9-277:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:277:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:276:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:275:13-66
+activity#com.gst.move.game.LevelAaGame8Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:278:9-281:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:281:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:280:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:279:13-66
+activity#com.gst.move.basic.Level1Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:294:9-297:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:297:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:296:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:295:13-49
+activity#com.gst.move.basic.Level2Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:298:9-301:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:301:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:300:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:299:13-49
+activity#com.gst.move.basic.Level3Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:302:9-305:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:305:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:304:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:303:13-49
+activity#com.gst.move.basic.Level4Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:306:9-309:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:309:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:308:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:307:13-49
+activity#com.gst.move.basic.Level5Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:310:9-313:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:313:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:312:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:311:13-49
+activity#com.gst.move.basic.Level6Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:314:9-317:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:317:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:316:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:315:13-49
+activity#com.gst.move.basic.Level7Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:318:9-321:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:321:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:320:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:319:13-49
+activity#com.gst.move.basic.Level8Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:322:9-325:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:325:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:324:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:323:13-49
+activity#com.gst.move.basic.Level9Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:326:9-329:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:329:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:328:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:327:13-49
+activity#com.gst.move.basic.Level10Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:330:9-333:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:333:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:332:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:331:13-50
+activity#com.gst.move.basic.Level11Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:334:9-337:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:337:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:336:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:335:13-50
+activity#com.gst.move.basic.Level12Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:338:9-341:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:341:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:340:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:339:13-50
+activity#com.gst.move.basic.Level13Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:342:9-345:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:345:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:344:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:343:13-50
+activity#com.gst.move.basic.Level14Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:346:9-349:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:349:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:348:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:347:13-50
+activity#com.gst.move.basic.Level15Activity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:350:9-353:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:353:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:352:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:351:13-50
+activity#com.gst.move.basic.SayItActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:354:9-357:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:357:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:356:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:355:13-48
+activity#com.gst.move.basic.LevelGameActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:358:9-361:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:361:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:360:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:359:13-52
+activity#com.gst.move.basic.MvPlayActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:362:9-365:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:365:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:364:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:363:13-49
+activity#com.gst.move.basic.SuccessActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:366:9-369:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:369:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:368:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:367:13-50
+activity#com.gst.move.basic.SuccessSayitActivity
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:370:9-373:53
+	android:screenOrientation
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:373:13-50
+	android:launchMode
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:372:13-43
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:371:13-55
+meta-data#com.google.android.gms.version
+ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:375:9-377:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\as_workspace\MyApplication\testFragAndVP\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:377:13-66
+	android:name
+		ADDED from D:\as_workspace\MyApplication\testFragAndVP\AndroidManifest.xml:376:13-58

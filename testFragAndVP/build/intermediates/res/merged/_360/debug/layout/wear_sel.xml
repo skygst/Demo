@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_speak_loudly"
+        style="@style/wrapContent"
+        android:background="@drawable/icon_speak" ></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_music"
+        style="@style/wrapContent" ></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_video"
+        style="@style/wrapContent" ></RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_music" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_listen_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listen_music" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_video" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_look_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/look_video" />
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_speak_loudly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/speak_loudly" />
+
+</RelativeLayout>

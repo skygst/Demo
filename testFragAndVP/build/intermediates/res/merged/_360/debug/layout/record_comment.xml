@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_head_portrait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_head"
+            style="@style/wrapContent"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icon_head" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/wrapContent"
+            android:layout_toRightOf="@id/iv_head"
+            android:layout_alignTop="@id/iv_head"
+            android:layout_alignBottom="@id/iv_head"
+            android:textSize="17sp"
+            android:layout_centerVertical="true"
+            android:text="Kelly老师的评价"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_head_portrait"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="5dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_yz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_yz"
+                style="@style/wrapContent"
+                android:layout_marginTop="10dp"
+                android:text="音准:"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_yz"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="74dp"
+                android:layout_height="11dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/tv_yz"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/progress_ability" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_lld"
+                style="@style/wrapContent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="流利度:"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_lld"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="74dp"
+                android:layout_height="11dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/tv_lld"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/progress_ability" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_yg"
+                style="@style/wrapContent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="语感:"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_yg"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="74dp"
+                android:layout_height="11dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/tv_yg"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/progress_ability" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_line"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/rl_yz"
+            android:background="@drawable/dotted_line" />
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_comment_record"
+            style="@style/wrapContent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_below="@id/ll_line"
+            android:src="@drawable/teacher_recording" />
+
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            style="@style/matchWrap"
+            android:layout_below="@id/ll_line"
+            android:layout_toRightOf="@+id/iv_comment_record"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp">
+
+            <com.ebodoo.raz.custom.ClickImageView
+                style="@style/wrapContent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="invisible"
+                android:src="@drawable/teacher_recording" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                style="@style/matchWrap"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_content"
+                android:layout_marginTop="0dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_error_correction"
+            style="@style/matchWrap"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv_comment_record"
+            android:layout_below="@id/rl_content" >
+
+            <TextView
+                android:id="@+id/tv_error_word"
+                style="@style/wrapContent"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/corner_box_orange_2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFffffff</color>
+    <color name="bg_app">#FBF6F0</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_ban">#50000000</color>
+    <color name="gray">#808080</color>
+    <color name="green">#ff16a33e</color>
+
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#fffcfcfc</color>
+    <color name="base_end_color_pressed">#ffd7d7d7</color>
+    <color name="rounded_container_border">#ffb7babb</color>
+
+    <color name="red_001">#ff7376</color>
+    <color name="wordColor">#666666</color>
+
+    <color name="titleBgColor">#39daca</color>
+    <color name="darkTitleBgColor">#4e9e96</color>
+
+    <color name="brown_green">#729b6a</color>
+    <color name="green_2">#80D370</color>
+
+    <color name="bg_semitransparent">#70000000</color>
+    <color name="blue_2">#24a295</color>
+    <color name="blue_1">#39daca</color>
+
+    <color name="orange">#ffe3432c</color>
+
+    <color name="global_bg">#eeeff3</color>
+    <color name="line_color">#dadada</color>
+
+</resources>

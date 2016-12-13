@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_background">
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        style="@style/wrapContent"
+        android:background="@drawable/buy_dialog_bg"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_once"
+        style="@style/matchWrap">
+
+        <TextView
+            android:id="@+id/tv_once_title"
+            style="@style/matchMatch"
+            android:background="@drawable/corner_box_white_5"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_once_sel"
+            style="@style/wrapContent"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_once_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_once_title"
+            android:gravity="center_vertical"
+            android:src="@drawable/dialog_sel"
+            android:layout_marginRight="10dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_once_price"
+            style="@style/wrapContent"
+            android:layout_alignBottom="@id/tv_once_title"
+            android:layout_alignTop="@id/tv_once_title"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_once_sel"
+            android:gravity="center_vertical"
+            android:textColor="#fd983f"
+            android:textSize="17sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_all"
+        style="@style/matchWrap"
+        android:layout_below="@id/rl_once"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_all_title"
+            style="@style/matchMatch"
+            android:background="@drawable/corner_box_green_5"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_all_sel"
+            style="@style/wrapContent"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_all_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_all_title"
+            android:gravity="center_vertical"
+            android:src="@drawable/dialog_sel"
+            android:layout_marginRight="10dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_all_price"
+            style="@style/wrapContent"
+            android:layout_alignBottom="@id/tv_all_title"
+            android:layout_alignTop="@id/tv_all_title"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_all_sel"
+            android:gravity="center_vertical"
+            android:textColor="#fd983f"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_left"
+        style="@style/matchWrap"
+        android:src="@drawable/dialog_cancel" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_right"
+        style="@style/matchWrap"
+        android:src="@drawable/dialog_to_buy" />
+
+</RelativeLayout>

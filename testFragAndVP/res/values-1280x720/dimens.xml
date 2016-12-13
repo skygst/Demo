@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+     <dimen name="comment_left">80dp</dimen>
+     <dimen name="comment_bottom">95dp</dimen>
+     <dimen name="comment_head_left">15dp</dimen>
+
+</resources>

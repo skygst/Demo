@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <!--<item
+        android:drawable="@mipmap/paopao_0"
+        android:duration="200"/>-->
+    <item
+        android:drawable="@mipmap/paopoa_1"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_2"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_3"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_4"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_5"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_6"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_7"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_8"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_9"
+        android:duration="200"/>
+    <item
+        android:drawable="@mipmap/paopoa_10"
+        android:duration="200"/>
+
+</animation-list>

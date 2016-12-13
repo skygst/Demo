@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wear_ear_bg" >
+
+    <ImageView
+        android:id="@+id/iv_pan"
+        style="@style/wrapWrap"
+        android:src="@drawable/wear_ear_pan" />
+
+    <ImageView
+        android:id="@+id/iv_collection"
+        style="@style/wrapWrap" 
+        android:background="@drawable/wear_collection_del"
+        />
+
+    <ImageView
+        android:id="@+id/iv_play"
+        style="@style/wrapWrap"
+        android:src="@drawable/wear_ear_stop" />
+
+    <ImageView
+        android:id="@+id/iv_next"
+        style="@style/wrapWrap"
+        android:src="@drawable/wear_ear_next" />
+
+    <ImageView
+        android:id="@+id/iv_play_state"
+        style="@style/wrapWrap"
+        android:src="@drawable/wear_state_cycle" />
+
+    <RelativeLayout
+        android:id="@+id/rl_collection_bg"
+        style="@style/wrapWrap"
+        android:background="@drawable/wear_primary_bg" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_primary_click"
+        style="@style/wrapWrap"
+        android:background="@drawable/touming_1" />
+
+    <ImageView
+        android:id="@+id/iv_advanced_click"
+        style="@style/wrapWrap"
+        android:background="@drawable/touming_1" />
+
+    <ImageView
+        android:id="@+id/iv_collection_click"
+        style="@style/wrapWrap"
+        android:background="@drawable/touming_1" />
+
+    <ImageView
+        android:id="@+id/iv_del"
+        style="@style/wrapWrap"
+        android:src="@drawable/wear_del"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_list"
+        style="@style/wrapWrap" >
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/wear_line" >
+        </ListView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent"
+        android:src="@drawable/bt_front" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/matchParentAndWrapContent"
+        android:textSize="25sp" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/wrapContent" 
+        android:src="@drawable/bt_front"
+        />
+
+    <ImageView
+        android:id="@+id/iv_card_name_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_name_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_name_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_name_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_card_4"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_bg"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_img1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_img2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_img3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_bottom_img4"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        style="@style/wrapContent"
+        android:src="@drawable/login_bg"
+        />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_close"
+        style="@style/wrapContent"
+        android:src="@drawable/login_close" />
+
+    <RelativeLayout
+        android:id="@+id/rl_phone"
+        style="@style/wrapContent"
+        android:background="@drawable/login_phone"
+        >
+
+        <EditText
+            android:id="@+id/et_phone"
+            style="@style/etPhoneParams"
+            android:hint="手机号码"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_code"
+        style="@style/wrapContent"
+        android:background="@drawable/login_code"
+        >
+
+        <EditText
+            android:id="@+id/et_code"
+            style="@style/etPhoneParams"
+            android:hint="验证码"
+            />
+
+    </RelativeLayout>
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_get_code"
+        style="@style/wrapContent"
+        android:src="@drawable/login_get_code"
+        />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_one_click_login"
+        style="@style/wrapContent"
+        android:src="@drawable/one_click_login"
+        />
+
+
+</RelativeLayout>

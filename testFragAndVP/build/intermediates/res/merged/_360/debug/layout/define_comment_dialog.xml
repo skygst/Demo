@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        style="@style/matchMatch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recorde_dialog_bg" >
+
+        <View
+            android:id="@+id/view_center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+        <View
+            android:id="@+id/view_below"
+            android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/view_center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/view_below"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            style="@style/wrapContent"
+            android:src="@drawable/icon_comments" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/wrapContent"
+            android:layout_above="@id/tv_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/brown"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/wrapContent"
+            android:layout_above="@id/iv_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/brown"
+            android:text="剩余点评次数: 7"
+            android:textSize="14sp" />
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_play"
+            style="@style/wrapContent"
+            android:layout_above="@id/view_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/recorder_play" />
+
+        <TextView
+            android:id="@+id/tv_plan_name"
+            style="@style/wrapContent"
+            android:layout_below="@id/iv_play"
+            android:layout_centerHorizontal="true"
+            android:text="试听"
+            android:visibility="invisible"
+            android:textColor="@color/brown"
+            android:textSize="15sp" />
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_left"
+            style="@style/wrapContent"
+            android:layout_below="@id/tv_plan_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_determine" />
+
+        <com.ebodoo.raz.custom.ClickImageView
+            android:id="@+id/iv_right"
+            style="@style/wrapContent"
+            android:layout_below="@id/tv_plan_name"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/iv_left"
+            android:src="@drawable/icon_cancel" />
+    </RelativeLayout>
+
+</RelativeLayout>

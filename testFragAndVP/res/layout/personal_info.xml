@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatch"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        style="@style/wrapContent"
+        android:src="@drawable/personal_bg" />
+
+    <com.ebodoo.raz.custom.ClickImageView
+        android:id="@+id/iv_close"
+        style="@style/wrapContent"
+        android:src="@drawable/login_close" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@id/iv_close"
+        />
+
+    <TextView
+        android:id="@+id/tv_exit_login"
+        style="@style/wrapContent"
+        android:layout_toLeftOf="@id/view"
+        android:layout_below="@id/iv_close"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="3dp"
+        android:text="退出登录"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/tv_exit_login"
+        android:layout_alignRight="@id/tv_exit_login"
+        android:layout_below="@id/tv_exit_login"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/iv_head_bg"
+        style="@style/wrapContent"
+        android:src="@drawable/personal_head_bg"
+        />
+
+    <ImageView
+        android:id="@+id/iv_head"
+        style="@style/wrapContent"
+        android:src="@drawable/personal_head" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/matchMatch"
+        android:layout_alignLeft="@id/iv_head"
+        android:layout_alignRight="@id/iv_head"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="#90451d"
+        android:layout_below="@id/iv_head"
+        android:text="昵称：小来来"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_star_num"
+        style="@style/wrapContent"
+        android:text="150"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/personal_star" />
+
+    <RelativeLayout
+        android:id="@+id/rl_info_bg"
+        style="@style/wrapContent"
+        android:background="@drawable/personal_info_bg"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_class"
+            style="@style/wrapContent"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/iv_class"
+                style="@style/wrapContent"
+                android:src="@drawable/class_info"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_class"
+                style="@style/tvPersonalParams"
+                android:text="小一班"
+                />
+        </LinearLayout>
+        
+        <View
+            android:id="@+id/view_line_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_class"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/personal_line"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_xuehao"
+            style="@style/wrapContent"
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/view_line_1"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/iv_xuehao"
+                style="@style/wrapContent"
+                android:src="@drawable/xuehao"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_xuehao"
+                style="@style/tvPersonalParams"
+                android:text="564513ds"
+                />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_line_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_xuehao"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/personal_line"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_ranking"
+            style="@style/wrapContent"
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/view_line_2"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/iv_ranking"
+                style="@style/wrapContent"
+                android:src="@drawable/ranking"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_ranking"
+                style="@style/tvPersonalParams"
+                android:text="15"
+                />
+        </LinearLayout>
+        <View
+            android:id="@+id/view_line_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_ranking"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/personal_line"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <ImageView
+        android:id="@+id/iv_card_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_read"
+        style="@style/wrapContent" />
+    
+    <ImageView
+        android:id="@+id/iv_choose_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_choose_2"
+        style="@style/wrapContent" />
+    <ImageView
+        android:id="@+id/iv_answer_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_answer_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_sentence"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

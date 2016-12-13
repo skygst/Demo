@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_card_1"
+        style="@style/wrapContent" />
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_card_2"
+        style="@style/wrapContent" />
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_card_3"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_big_bag"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_pencil"
+        style="@style/wrapContent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_eraser"
+        style="@style/wrapContent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_ruler"
+        style="@style/wrapContent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_small_bag"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

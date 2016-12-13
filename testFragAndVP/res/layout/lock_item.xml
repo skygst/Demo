@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_country_lock_1"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_2"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_3"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_4"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_5"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_6"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_7"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_8"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_9"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_10"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_11"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_12"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_13"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_14"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_15"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_16"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_17"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_18"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_19"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_20"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_21"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_country_lock_22"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+    <ImageView
+        android:id="@+id/iv_locate_lock"
+        style="@style/wrapWrap"
+        android:src="@drawable/small_rock" />
+
+</RelativeLayout>

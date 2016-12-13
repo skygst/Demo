@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_word_1"
+        style="@style/wrapContent" />
+
+    <com.gst.move.custom.XButton
+        android:id="@+id/btn_word_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_answer_1"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_answer_2"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        style="@style/wrapContent" />
+
+    <ImageView
+        android:id="@+id/iv_sentence"
+        style="@style/wrapContent" />
+
+</RelativeLayout>

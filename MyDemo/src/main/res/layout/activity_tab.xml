@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:id="@+id/fl_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            >
+
+            <LinearLayout
+                android:id="@+id/main_tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#f1f1f1"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:weightSum="3.0" >
+
+                <TextView
+                    android:id="@+id/main_tab_home"
+                    style="@style/MMTabButton"
+                    android:checked="true"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/tab_square_default"
+                    android:text="首页"
+                    android:layout_weight="1.0"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    style="@style/MMTabButton"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/tab_bbs_default"
+                    android:text="测评"
+                    android:visibility="invisible"
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    android:id="@+id/main_tab_bbs"
+                    style="@style/MMTabButton"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/tab_diary_default"
+                    android:text="社区"
+                    android:textColor="@color/gray" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_tab_test"
+                style="@style/MMTabButton"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/tab_bbs_default"
+                android:text="测评"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tab_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#77557799"
+            android:layout_above="@id/fl_bottom"
+            android:layout_marginBottom="-50dp"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>
+
